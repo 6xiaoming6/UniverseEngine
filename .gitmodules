@@ -1,0 +1,3 @@
+[submodule "UniverseEngine/vendor/spdlog"]
+	path = UniverseEngine/vendor/spdlog
+	url = https://gitee.com/sunkang315629/spdlog.git

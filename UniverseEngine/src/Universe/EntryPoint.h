@@ -5,9 +5,12 @@ extern Universe::Application* Universe::CreateApplication();
 
 int main(int arg, char** args)
 {
+	Universe::Log::Init();
+	UN_CORE_INFO("引擎,启动!");
+	UN_CLIENT_INFO("原神,启动!");
+
 	auto app = Universe::CreateApplication();
 	app->Run();
-
 	delete app;
 }
 
