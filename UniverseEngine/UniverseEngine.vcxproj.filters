@@ -4,6 +4,9 @@
     <Filter Include="Universe">
       <UniqueIdentifier>{965F93FE-822C-EE09-AB45-DCB197712398}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Universe\Events">
+      <UniqueIdentifier>{BAE63A23-2672-A8E7-2F83-2BDC9B8D04E8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Universe.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Universe\EntryPoint.h">
       <Filter>Universe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Universe\Events\ApplicationEvent.h">
+      <Filter>Universe\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Universe\Events\Event.h">
+      <Filter>Universe\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Universe\Events\KeyEvent.h">
+      <Filter>Universe\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Universe\Events\MouseEvent.h">
+      <Filter>Universe\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Universe\Log.h">
       <Filter>Universe</Filter>

@@ -10,3 +10,5 @@
 	#error Universe only in windows!
 
 #endif // UN_PLATFORM_WINDOW
+
+#define BIT(X) (1 << X)
